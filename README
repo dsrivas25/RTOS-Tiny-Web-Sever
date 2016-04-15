@@ -26,7 +26,7 @@ Files:
   README		This file	
   cgi-bin/adder.c	CGI program that adds two numbers
   cgi-bin/Makefile	Makefile for adder.c
-  csapp.c               File containing Error handling, Wrappers for threads, DNS, Socket interfaces, Wrappers for Unix control functions and standard 
+  csapp.c               File containing Error handling, Wrappers for threads,DNS and Socket interfaces,Wrappers for Unix control functions and standard 
                         I/O functions, client-server helping functions
   csapp.h               Header file for csapp.c
   csapp.o               Object file for csapp.c
