@@ -1,20 +1,11 @@
 Tiny Web server
-Dave O'Hallaron
-Carnegie Mellon University
+@author Disha Srivastava
 
-This is the home directory for the Tiny server, a 200-line Web
-server that we use in "15-213: Intro to Computer Systems" at Carnegie
-Mellon University.  Tiny uses the GET method to serve static content
-(text, HTML, GIF, and JPG files) out of ./ and to serve dynamic
-content by running CGI programs out of ./cgi-bin. The default 
-page is home.html (rather than index.html) so that we can view
-the contents of the directory from a browser.
+This is the home directory for the Tiny server. Tiny uses the GET method to serve static content (text, HTML, GIF, and JPG files) out of ./ and to serve 
+dynamic content by running CGI programs out of ./cgi-bin. The default page is home.html (rather than index.html) so that we can view the contents of the 
+directory from a browser.
 
-Tiny is neither secure nor complete, but it gives students an
-idea of how a real Web server works. Use for instructional purposes only.
-
-The code compiles and runs cleanly using gcc 2.95.3 
-on a Linux 2.2.20 kernel.
+The code compiles and runs cleanly using gcc 2.95.3 on a Linux 2.2.20 kernel.
 
 To install Tiny:
    Type "tar xvf tiny.tar" in a clean directory. 
@@ -35,4 +26,12 @@ Files:
   README		This file	
   cgi-bin/adder.c	CGI program that adds two numbers
   cgi-bin/Makefile	Makefile for adder.c
+  csapp.c               File containing Error handling, Wrappers for threads, DNS, Socket interfaces, Wrappers for Unix control functions and standard 
+                        I/O functions, client-server helping functions
+  csapp.h               Header file for csapp.c
+  csapp.o               Object file for csapp.c
+  worker.c              The C file for worker thread
+  worker.h              Header file for worker threads
+  spin_delay.c          The C file for spin delay 
+  spin_delay.o          Object file for spin delay
 
